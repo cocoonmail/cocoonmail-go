@@ -33,6 +33,9 @@ type MailSendRequest struct {
 	BypassBounceControl      bool                    `json:"bypass_bounce_control,omitempty"`
 	BypassUnsubscribeList    bool                    `json:"bypass_unsubscribe_list,omitempty"`
 	EnableViewInBrowser      bool                    `json:"enable_view_in_browser,omitempty"`
+	EmailContent             string                  `json:"email_content,omitempty"`
+	Sender                   string                  `json:"sender,omitempty"`
+	Subject                  string                  `json:"subject,omitempty"`
 }
 
 // MailRecipient encapsulates recipient details and attributes
