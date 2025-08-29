@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cocoonmail/helpers/mail"
-	"github.com/cocoonmail/rest"
+	"github.com/cocoonmail/cocoonmail-go/helpers/mail"
+	"github.com/cocoonmail/cocoonmail-go/rest"
 )
 
 // Version is this client library's current version

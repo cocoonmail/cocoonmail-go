@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/url"
 
-	"github.com/cocoonmail/rest"
+	"github.com/cocoonmail/cocoonmail-go/rest"
 )
 
 // CocoonmailOptions for CreateRequest
