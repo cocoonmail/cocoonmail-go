@@ -3,7 +3,7 @@ module github.com/cocoonmail/cocoonmail-go
 go 1.22.4
 
 require (
-	github.com/stretchr/testify v1.11.1
+	github.com/stretchr/testify v1.9.0
 	golang.org/x/net v0.23.0
 )
 
